@@ -1,0 +1,18 @@
+[submodule "RedNet"]
+	path = RedNet
+	url = https://github.com/JindongJiang/RedNet
+[submodule "Pixel2Mesh"]
+	path = Pixel2Mesh
+	url = https://github.com/nywang16/Pixel2Mesh
+[submodule "PanoBasic"]
+	path = PanoBasic
+	url = https://github.com/yindaz/PanoBasic
+[submodule "GenerativeInpainting"]
+	path = GenerativeInpainting
+	url = https://github.com/JiahuiYu/generative_inpainting
+[submodule "generative_inpainting"]
+	path = generative_inpainting
+	url = https://github.com/JiahuiYu/generative_inpainting
+[submodule "HorizonNet"]
+	path = HorizonNet
+	url = https://github.com/sunset1995/HorizonNet
