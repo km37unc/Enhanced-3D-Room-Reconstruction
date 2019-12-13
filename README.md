@@ -7,3 +7,4 @@ We tackle the problem of removing object distortion in 3D Room Reconstruction fr
 # Proposed Pipeline
 We created a process involving segmenting out objects which are likely to be distorted in the room reconstruction, and inpainting over these objects in the original panoramic image. Then running a room reconstruction method on this new panoramic image provides an “empty” 3D scene. Using the semantic segmentation from the first step, we can utilize a single-view object reconstruction method to derive a 3D reconstruction of the object which was removed from the scene. Finally, this 3D object can be inserted into the empty reconstructed room.
 
+![Proposed Pipeline](pipeline.png)
